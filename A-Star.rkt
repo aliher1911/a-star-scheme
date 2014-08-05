@@ -186,7 +186,7 @@
 ; weight function that could be used to estimate distance in a*
 ; zero function would make a* act as dijkstra
 (define (zero-weight from to)
-  1)
+  0)
 
 ; define locations
 (define test-locations
